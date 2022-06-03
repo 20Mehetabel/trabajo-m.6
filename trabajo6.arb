@@ -1,0 +1,19 @@
+archivo  =  archivo . abierto ( "M6.txt" ,  "w" )
+archivo _ pone  "Nombre: mehetabel morales"
+archivo _ pone  "Módulo: 6"
+archivo _ pone  "Año: 2022"
+
+archivo _ pone  " \n Grados C°= x, y su conversión a F° es = Y"
+
+128 . tiempos  hacen | norte |
+archivo _ puts  ( "Grados C°= #{ n } , y su conversión a F° es = #{ 9.0 * n / 5.0 + 32.0 } " )
+ final
+
+ archivo _ cerrar ( )
+
+archivo  =  archivo . abierto ( 'M6.txt' ,  'r' )
+archivo _ cada_línea  hacer | línea |
+pone  linea
+final
+
+archivo _ cerrar ( )
